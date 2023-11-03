@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redact App</title>
+    <link rel="stylesheet" href="style .css">
+    <script src="sript.js" defer></script>
+</head>
+<body>
+
+   <div class="container">
+    <div class="App">
+        <h1>Redact App</h1>
+    <textarea id="originalText" placeholder="Enter your text here" autofocus></textarea>
+    <input type="text" id="redactWords" placeholder="Words to redact (separated by space)">
+    <input type="text" id="replacement" placeholder="Custom replacement text (default is ****)">
+    <button id="redactButton">Redact Now</button>
+    <button id="resetButton">Clear</button>
+    <h2>Redacted Text:</h2>
+    <p id="redactedOutput"></p>
+    <div id="stats">
+        <p>Words Scanned: <span id="wordsScanned">0</span></p>
+        <p>Words Redacted: <span id="wordsRedacted">0</span></p>
+        <p>Characters Scrambled: <span id="charactersScrambled">0</span></p>
+        <p>Time Taken: <span id="timeTaken">0 seconds</span></p>
+    </div>
+    </div>
+   </div>
+</body>
+</html>

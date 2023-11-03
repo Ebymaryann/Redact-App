@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    
+}
+
+
+@media (min-width: 800px) {
+    .container {
+        background-image: url('Asset/Hand_Magnifier.jpg');
+        height: 100vh;
+        width: 50%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .App{
+        min-height: 100vh;
+        width: 700px;
+        border-radius: 18px;
+        background-color: red;
+        margin-left: 90%;
+        padding: 10px;
+    }
+    textarea, input {
+        width: 80%;
+        padding: 10px;
+        margin: 10px;
+    }
+    
+    button {
+        padding: 10px 20px;
+        background-color: #007BFF;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+    }
+    
+    button:hover {
+        background-color: #0056b3;
+    }
+    
+    #redactedOutput {
+        font-weight: bold;
+        margin: 20px;
+        word-wrap: break-word;
+    }
+    button .resetButton{
+        margin-left: 30%;
+    }
+}
+
+@media (max-width: 800px) {
+    .App{
+        min-height: 100vh;
+        width: 70%;
+        border-radius: 18px;
+        background-color: red;
+        margin-top: 10%;
+        margin-left: 10%;
+        padding: 10px;
+        
+    }
+
+    textarea, input {
+        width: 80%;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    button {
+        padding: 10px 20px;
+        background-color: #007BFF;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        margin-top: 3%;
+    }
+
+    button:hover {
+        background-color: #0056b3;
+    }
+
+    #redactedOutput {
+        font-weight: bold;
+        margin: 20px;
+        width: 80%;
+        word-wrap: break-word;
+       
+    }
+
+}
